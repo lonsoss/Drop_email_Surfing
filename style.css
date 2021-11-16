@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('Surfing-Equipment-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 97.92vh;
+}
+.container{
+    width: 55vw;
+    height: 75vh;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.image_section{
+    width: 47%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.image_section img{
+    width: 320%;
+    transform: translate(-39%);
+}
+.drop_mail_section{
+    background-color: white;
+    width: 53%;
+    height: 100%;
+    float: right;
+}
+.close_button{
+    width: 17px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+.close_button:hover{
+    transform: rotate(60deg)
+}
+.drop_mail_section h1{
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+.drop_mail_section p{
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+.drop_mail_section .email_section{
+    width: 90%;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-bottom: solid 2px black;
+    outline: none;
+}
+.drop_mail_section .submit_button{
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.drop_mail_section .submit_button:hover{
+    border: solid 3px black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.spacing{
+    padding: 75px 60px 70px;
+}
